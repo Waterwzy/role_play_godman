@@ -26,7 +26,7 @@ god_list.append(EventOfGod(
         'health': 0,
         'money': 0,
         'iq': 0,
-        'friend': random.randint(-3,-5),
+        'friend': -random.randint(3,5),
     }
 ))
 god_list.append(EventOfGod(
@@ -96,8 +96,7 @@ god_list.append(EventOfGod(
         'money': 0,
         'iq': 0,
         'friend': random.randint(20,30),
-    },
-    last_happen= 3
+    }
 ))
 god_list.append(EventOfGod(
     '数码之王',
@@ -279,7 +278,7 @@ god_list.append(EventOfGod(
         'god': 0,
         'health': 0,
         'money': 3000,
-        'iq': 0,
+        'iq': 50,
         'friend': 0,
     }
 ))#special effect
@@ -306,3 +305,167 @@ god_list.append(EventOfGod(
         'friend': 0,
     }
 ))#special effect
+god_list.append(EventOfGod(
+    '神秘教学',
+    '自认为人生经历丰富的StarredMate025，走上了教导他人的道路，实则没有教只有导（？），结果发现越教自己屁股越歪，又走上了指控他人图谋不轨的道路。',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': 2,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    20,
+    {
+        'god': 20,
+        'health': 0,
+        'money': 0,
+        'iq': -10,
+        'friend': 0,
+    }
+))
+god_list.append(EventOfGod(
+    '嘎啦嘎木时间到！',
+    'StarredMate025不知为何迷上了嘎啦嘎木，玩起来就发狠了、忘情了！（发情）一天竟然玩了5个小时！',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': None,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    25,
+    {
+        'god': 15,
+        'health': 0,
+        'money': 0,
+        'iq': -1.14,
+        'friend': -10,
+    }
+))
+god_list.append(EventOfGod(
+    '豪猫配__人',
+    'StarredMate025不知为何养了一只猫，倒是把它喂养的不错。',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': None,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    15,
+    {
+        'god': 0,
+        'health': 0,
+        'money': 0,
+        'iq': 5,
+        'friend': 10,
+    }
+))
+god_list.append(EventOfGod(
+    '线上认亲',
+    '星星也许最近成为了瓦学弟，整天叫陌生人"妈妈"“妹妹”之类。',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': 2,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    20,
+    {
+        'god': 26,
+        'health': 0,
+        'money': 0,
+        'iq': 5,
+        'friend': -16,
+    }
+))
+god_list.append(EventOfGod(
+    '来自成都の朋♂友♂',
+    '星星的同性朋友或许进入了发氢期，对着星星发氢，星星对此感到害怕。',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': None,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    30,
+    {
+        'god': 26,
+        'health': 0,
+        'money': 0,
+        'iq': 0,
+        'friend': 20,
+    }
+))
+god_list.append(EventOfGod(
+    '最强の程序猿',
+    '幻想了，幻想自己成为全世界最厉害的程序员，开发出最厉害的AIff',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': None,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': -math.inf,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    50,
+    {
+        'god': 30,
+        'health': 0,
+        'money': 0,
+        'iq': 0,
+        'friend': -10,
+    }
+))
+god_list.append(EventOfGod(
+    '粮草先行',
+    '星星在并没有电脑（甚至不知道如何安装Python）的情况下，在tb上买了一个Python课程并开始学习。',
+    {
+        'event_before': None,
+        'event_time_before': 0,  # 之前发生了一定概率后触发
+        'event_last_day': None,  # 前一天发生了一定概率后触发
+        'state_required': 2,  # 在一定阶段触发
+        'god_require': -math.inf,  # 各种神人值的需要条件
+        'health_require': -math.inf,
+        'money_require': 1000,
+        'iq_require': -math.inf,
+        'friend_require': -math.inf,
+    },
+    50,
+    {
+        'god': 40,
+        'health': 0,
+        'money': -500,
+        'iq': -5,
+        'friend': 0,
+    }
+))
+
+def create_god_list() :
+    return god_list
